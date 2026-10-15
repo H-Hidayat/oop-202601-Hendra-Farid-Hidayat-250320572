@@ -10,10 +10,10 @@ public final class HelloProsedural {
 
     /**
      * TODO minggu 1: kembalikan sapaan yang memuat kata "Aset-Pinjam", nama, dan NIM.
-     * Contoh bentuk: "Hello Aset-Pinjam, saya Budi (2310112345)".
+     * Contoh bentuk: "Halo Aset-Pinjam, ...".
      */
     public static String sapa(String nama, String nim) {
-        throw new UnsupportedOperationException("TODO minggu 1: HelloProsedural.sapa");
+        return "Halo " + nama + ", selamat datang di Aset-Pinjam! NIM Anda adalah " + nim + ".";
     }
 
     public static void main(String[] args) {
